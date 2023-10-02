@@ -8,6 +8,7 @@ from struct import *
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import LaserScan
 from tf.transformations import euler_from_quaternion
+from racecar_beacon.srv import MyService, MyServiceResponse
 
 class ROSMonitor:
     def __init__(self):

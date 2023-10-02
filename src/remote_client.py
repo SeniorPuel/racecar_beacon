@@ -2,6 +2,7 @@
 
 import rospy
 import socket
+from racecar_beacon.srv import MyService, MyServiceRequest
 
 HOST = '127.0.0.1'
 # This process should listen to a different port than the PositionBroadcast client.
